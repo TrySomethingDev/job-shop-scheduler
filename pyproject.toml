@@ -1,0 +1,19 @@
+[project]
+name = "job-shop-scheduler"
+version = "0.1.0"
+description = "Scheduling system for job shop and manufacturing environments."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://example.com"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
